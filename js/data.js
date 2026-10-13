@@ -358557,6 +358557,4435 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
   ],
   "routes": [
     {
+      "name": "Ruta 29",
+      "region": "Johto",
+      "x": 60.1,
+      "y": 71.5,
+      "desc": "Conecta Pueblo Primavera al este con Ciudad Cerezo al oeste.",
+      "connections": [
+        "Pueblo Primavera",
+        "Ciudad Cerezo",
+        "Ruta 46"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Sentret",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Hoppip",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Hoppip",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 2-3"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 46",
+      "region": "Johto",
+      "x": 62.5,
+      "y": 63.5,
+      "desc": "Desfiladero montañoso escalonado que conecta la Ruta 29 con la Ruta 45.",
+      "connections": [
+        "Ruta 29",
+        "Ruta 45",
+        "Cueva Oscura"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Spearow",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Phanpy",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 2-3"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 2-3"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 30",
+      "region": "Johto",
+      "x": 53.1,
+      "y": 59.4,
+      "desc": "Se extiende hacia el norte desde Ciudad Cerezo hasta la casa del Sr. Pokémon y la Ruta 31.",
+      "connections": [
+        "Ciudad Cerezo",
+        "Ruta 31"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Caterpie",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Ledyba",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Weedle",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 3"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 3"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 3"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 31",
+      "region": "Johto",
+      "x": 49.6,
+      "y": 48.3,
+      "desc": "Conecta la Ruta 30 con Ciudad Malvalba y da acceso a la Cueva Oscura.",
+      "connections": [
+        "Ciudad Malvalba",
+        "Cueva Oscura",
+        "Ruta 30"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Ledyba",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 4-5"
+        },
+        {
+          "pokemon": "Caterpie",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Mareep",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Weedle",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Pichu",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Gastly",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Gastly",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 4"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Oscura (Sur)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Cueva Oscura (Sur).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Teddiursa",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 3-4"
+        },
+        {
+          "pokemon": "Larvitar",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 2"
+        },
+        {
+          "pokemon": "Larvitar",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 5-19"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 36",
+      "region": "Johto",
+      "x": 40.4,
+      "y": 48.3,
+      "desc": "Cruce estratégico que conecta Ciudad Malvalba, el Parque Nacional y Ciudad Iris.",
+      "connections": [
+        "Ciudad Malvalba",
+        "Parque Nacional",
+        "Ruta 37",
+        "Ruinas Alfa"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 4-5"
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 4"
+        },
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 5-6"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 4-5"
+        },
+        {
+          "pokemon": "Gastly",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 4-5"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 5"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 32",
+      "region": "Johto",
+      "x": 46.2,
+      "y": 61.5,
+      "desc": "Larga vía costera hacia el sur entre Ciudad Malvalba y la Cueva Unión.",
+      "connections": [
+        "Ciudad Malvalba",
+        "Ruinas Alfa",
+        "Cueva Unión"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Mareep",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 5-7"
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 7"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 6"
+        },
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 7"
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 7"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Qwilfish",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Qwilfish",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5-7"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 7"
+        },
+        {
+          "pokemon": "Gastly",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 6"
+        },
+        {
+          "pokemon": "Mareep",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 7"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Unión (1F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Cueva Unión (1F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Sandshrew",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 9"
+        },
+        {
+          "pokemon": "Cubone",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Unión (B1F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Cueva Unión (B1F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Marill",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Unión (B2F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Cueva Unión (B2F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Onix",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 25"
+        },
+        {
+          "pokemon": "Cubone",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Kangaskhan",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 23"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 33",
+      "region": "Johto",
+      "x": 42.7,
+      "y": 81.4,
+      "desc": "Corta ruta lluviosa que une la salida de la Cueva Unión con Pueblo Azalea.",
+      "connections": [
+        "Cueva Unión",
+        "Pueblo Azalea"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Machop",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Spearow",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 9"
+        },
+        {
+          "pokemon": "Spearow",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 9"
+        },
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Machop",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 8-9"
+        },
+        {
+          "pokemon": "Machop",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 8"
+        }
+      ]
+    },
+    {
+      "name": "Pozo Slowpoke (B1F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Pozo Slowpoke (B1F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 5-8"
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 6-8"
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 10-24"
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 10-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Pozo Slowpoke (B2F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Pozo Slowpoke (B2F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 19-23"
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 21-23"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 23"
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Encinar",
+      "region": "Johto",
+      "x": 30.6,
+      "y": 77.1,
+      "desc": "Bosque ancestral y sombrío custodiado por el altar del protector del bosque, Celebi.",
+      "connections": [
+        "Pueblo Azalea",
+        "Ruta 34"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Caterpie",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Weedle",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 8"
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 12-13"
+        },
+        {
+          "pokemon": "Metapod",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 12-13"
+        },
+        {
+          "pokemon": "Oddish",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 12"
+        },
+        {
+          "pokemon": "Kakuna",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 9"
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 10-19"
+        },
+        {
+          "pokemon": "Golduck",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Oddish",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 12-13"
+        },
+        {
+          "pokemon": "Venonat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 12"
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 12"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 12"
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Oddish",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 13"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 34",
+      "region": "Johto",
+      "x": 30.6,
+      "y": 68.8,
+      "desc": "Concurrente camino entre el Encinar y Ciudad Trigal. Aloja la Guardería Pokémon.",
+      "connections": [
+        "Encinar",
+        "Ciudad Trigal"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Mankey",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Abra",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Snubbull",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Grimer",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Jigglypuff",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Ditto",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Drowzee",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Grimer",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Abra",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Abra",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Snubbull",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Jigglypuff",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Ditto",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 10"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 35",
+      "region": "Johto",
+      "x": 32.7,
+      "y": 52.1,
+      "desc": "Ruta hacia el norte que conecta Ciudad Trigal con la entrada sur del Parque Nacional.",
+      "connections": [
+        "Ciudad Trigal",
+        "Parque Nacional",
+        "Ruta 36"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Snubbull",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Abra",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Yanma",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 14-18"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 14-15"
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Golduck",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Abra",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Yanma",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 14-18"
+        },
+        {
+          "pokemon": "Ditto",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 14"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 37",
+      "region": "Johto",
+      "x": 37.4,
+      "y": 41.7,
+      "desc": "Sendero flanqueado por árboles de bayas que conduce a las puertas de Ciudad Iris.",
+      "connections": [
+        "Ruta 36",
+        "Ciudad Iris"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Vulpix",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 16-18"
+        },
+        {
+          "pokemon": "Pidgey",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 16-18"
+        },
+        {
+          "pokemon": "Stantler",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 16-18"
+        },
+        {
+          "pokemon": "Ledian",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 16-18"
+        },
+        {
+          "pokemon": "Pidgeotto",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Stantler",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 16-18"
+        },
+        {
+          "pokemon": "Stantler",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Vulpix",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Hoothoot",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 19"
+        },
+        {
+          "pokemon": "Ariados",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 18"
+        }
+      ]
+    },
+    {
+      "name": "Torre Quemada (1F)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Torre Quemada (1F).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Rattata",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Koffing",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 14-15"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 13"
+        },
+        {
+          "pokemon": "Koffing",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 14"
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 15"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 15"
+        }
+      ]
+    },
+    {
+      "name": "Torre Quemada (Sótano)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Torre Quemada (Sótano).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Koffing",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 16-17"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Magmar",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Magmar",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 17"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Magmar",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Misdreavus",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Koffing",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Misdreavus",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 17"
+        },
+        {
+          "pokemon": "Koffing",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 17"
+        },
+        {
+          "pokemon": "Misdreavus",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 17"
+        },
+        {
+          "pokemon": "Misdreavus",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 16"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 18"
+        },
+        {
+          "pokemon": "Magmar",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 18"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 38",
+      "region": "Johto",
+      "x": 31.9,
+      "y": 35.0,
+      "desc": "Vía campestre hacia el oeste desde Ciudad Iris hacia la Granja Mumu.",
+      "connections": [
+        "Ciudad Iris",
+        "Ruta 39"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Magnemite",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Miltank",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Tauros",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Doduo",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Meowth",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 19"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magnemite",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Meowth",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 19-21"
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 21"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 39",
+      "region": "Johto",
+      "x": 28.0,
+      "y": 40.6,
+      "desc": "Camino rural que bordea la Granja Mumu y desciende hacia Ciudad Olivo.",
+      "connections": [
+        "Ruta 38",
+        "Ciudad Olivo"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Magnemite",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Doduo",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Miltank",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Tauros",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Meowth",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 18-21"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Magnemite",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 20"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 40",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 21-25"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 41",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Horsea",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 21-25"
+        },
+        {
+          "pokemon": "Mantine",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Islas Remolino",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Islas Remolino.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Krabby",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 26-27"
+        },
+        {
+          "pokemon": "Pidgeotto",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 25"
+        },
+        {
+          "pokemon": "Seel",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 24-26"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 25"
+        },
+        {
+          "pokemon": "Natu",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 24-26"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Horsea",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Mantyke",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Mantine",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Mantine",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 15-19"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Horsea",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Horsea",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seadra",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 26-27"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 25"
+        },
+        {
+          "pokemon": "Seel",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 24-26"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 25"
+        },
+        {
+          "pokemon": "Natu",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 24-26"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 47",
+      "region": "Johto",
+      "x": 11.1,
+      "y": 63.1,
+      "desc": "Ruta sobre acantilados rocosos y cascadas inaugurada en HGSS al oeste de Orquídea.",
+      "connections": [
+        "Ciudad Orquídea",
+        "Ruta 48",
+        "Cueva Acantilado"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Chansey",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Miltank",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Farfetchd",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 33-40"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Fearow",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 33-40"
+        },
+        {
+          "pokemon": "Gloom",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 33-40"
+        },
+        {
+          "pokemon": "Ditto",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 33-40"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-25"
+        },
+        {
+          "pokemon": "Seel",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 10-20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 15-20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 48",
+      "region": "Johto",
+      "x": 11.1,
+      "y": 54.2,
+      "desc": "Hermoso prado montañoso que conduce al acceso principal de la Zona Safari de Johto.",
+      "connections": [
+        "Ruta 47",
+        "Zona Safari"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Tauros",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Gloom",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Farfetchd",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Skiploom",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Fearow",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22-23"
+        },
+        {
+          "pokemon": "Growlithe",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Vulpix",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 22-26"
+        },
+        {
+          "pokemon": "Girafarig",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 22-26"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 42",
+      "region": "Johto",
+      "x": 44.4,
+      "y": 36.5,
+      "desc": "Ruta escarpada que bordea tres accesos al Monte Mortero entre Iris y Caoba.",
+      "connections": [
+        "Ciudad Iris",
+        "Monte Mortero",
+        "Pueblo Caoba"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Fearow",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Ekans",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Gligar",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Fearow",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "1%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Remoraid",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 21-25"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 25-29"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Gligar",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Marill",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 20"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 43",
+      "region": "Johto",
+      "x": 51.5,
+      "y": 27.1,
+      "desc": "Camino septentrional que sube desde Pueblo Caoba hasta las orillas del Lago de la Furia.",
+      "connections": [
+        "Pueblo Caoba",
+        "Lago de la Furia"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Furret",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Girafarig",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Farfetchd",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Flaaffy",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 23"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Skarmory",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 10-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Venonat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 21"
+        },
+        {
+          "pokemon": "Girafarig",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Flaaffy",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 23"
+        },
+        {
+          "pokemon": "Venomoth",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 23"
+        },
+        {
+          "pokemon": "Skarmory",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 24"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 44",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ruta 44.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Tangela",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Lickitung",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 32"
+        },
+        {
+          "pokemon": "Weepinbell",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 32"
+        },
+        {
+          "pokemon": "Pidgeotto",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 34"
+        },
+        {
+          "pokemon": "Electabuzz",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 36"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 24-29"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 28-32"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 33-34"
+        },
+        {
+          "pokemon": "Lickitung",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 32"
+        },
+        {
+          "pokemon": "Weepinbell",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 32"
+        },
+        {
+          "pokemon": "Electabuzz",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 36"
+        }
+      ]
+    },
+    {
+      "name": "Ruta Helada",
+      "region": "Johto",
+      "x": 61.8,
+      "y": 33.4,
+      "desc": "Peligrosa caverna glaciar cubierta de placas resbaladizas entre Caoba y Endrino.",
+      "connections": [
+        "Ruta 44",
+        "Ciudad Endrino"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Swinub",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 21-23"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 22-24"
+        },
+        {
+          "pokemon": "Delibird",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 21-23"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 22"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 22-24"
+        }
+      ]
+    },
+    {
+      "name": "Guarida Dragón",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Guarida Dragón.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 10-19"
+        },
+        {
+          "pokemon": "Horsea",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 10-14"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Surf",
+          "rate": "5%",
+          "levels": "Nv. 10-19"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 10-14"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 30"
+        },
+        {
+          "pokemon": "Seadra",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 30"
+        },
+        {
+          "pokemon": "Dragonair",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 30"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Dragonair",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 45",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ruta 45.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Donphan",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 34-35"
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 34"
+        },
+        {
+          "pokemon": "Gligar",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 31"
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 35"
+        },
+        {
+          "pokemon": "Skarmory",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 37"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 5-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Dratini",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Dragonair",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Oscura (Norte)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Cueva Oscura (Norte).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 35"
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 35"
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 30-35"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 5-19"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 33"
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 35"
+        },
+        {
+          "pokemon": "Wobbuffet",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 30-35"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 33"
+        }
+      ]
+    },
+    {
+      "name": "Monte Plateado (Exterior)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Monte Plateado (Exterior).",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Ursaring",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 50"
+        },
+        {
+          "pokemon": "Golem",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 51"
+        },
+        {
+          "pokemon": "Skarmory",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 54"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 54"
+        },
+        {
+          "pokemon": "Golem",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 52"
+        },
+        {
+          "pokemon": "Venusaur",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 54"
+        },
+        {
+          "pokemon": "Donphan",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 52-53"
+        },
+        {
+          "pokemon": "Charizard",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 50"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 34-44"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "30%",
+          "levels": "Nv. 40-44"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 50"
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 53"
+        },
+        {
+          "pokemon": "Crobat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 52-54"
+        },
+        {
+          "pokemon": "Houndoom",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 52"
+        },
+        {
+          "pokemon": "Venusaur",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 52-54"
+        },
+        {
+          "pokemon": "Blastoise",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 50"
+        },
+        {
+          "pokemon": "Venusaur",
+          "method": "Hierba alta (Noche)",
+          "rate": "1%",
+          "levels": "Nv. 52"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 27",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Kanto: Ruta 27.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Dodrio",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 38-42"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Chikorita",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Cyndaquil",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Murkrow",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Chikorita",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Totodile",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 42"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 26",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Kanto: Ruta 26.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Dodrio",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 38-42"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Bulbasaur",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Charmander",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 25-34"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "1%",
+          "levels": "Nv. 30-34"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Murkrow",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 38"
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Bulbasaur",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Hierba alta (Noche)",
+          "rate": "5%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Squirtle",
+          "method": "Hierba alta (Noche)",
+          "rate": "4%",
+          "levels": "Nv. 5"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 28",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Kanto: Ruta 28.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Tangela",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Hierba alta (Día)",
+          "rate": "10%",
+          "levels": "Nv. 42"
+        },
+        {
+          "pokemon": "Doduo",
+          "method": "Hierba alta (Día)",
+          "rate": "5%",
+          "levels": "Nv. 41"
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Hierba alta (Día)",
+          "rate": "4%",
+          "levels": "Nv. 43"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 34-44"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 40-44"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tangela",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 39"
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Hierba alta (Noche)",
+          "rate": "10%",
+          "levels": "Nv. 40-42"
+        }
+      ]
+    },
+    {
+      "name": "Ciudad Cerezo",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ciudad Cerezo.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        }
+      ]
+    },
+    {
+      "name": "Ciudad Malva",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ciudad Malva.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        }
+      ]
+    },
+    {
+      "name": "Ciudad Iris",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ciudad Iris.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 15-24"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "rate": "4%",
+          "levels": "Nv. 20-24"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        }
+      ]
+    },
+    {
       "name": "Ciudad Olivo",
       "region": "Johto",
       "x": 28.0,
@@ -358568,60 +362997,88 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 902,
-          "pokemon": "Clobbopus",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
+          "pokemon": "None",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 5"
         },
         {
-          "pid": 120,
-          "pokemon": "Staryu",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 819,
-          "pokemon": "Sandygast",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
-        },
-        {
-          "pid": 789,
-          "pokemon": "Crabrawler",
-          "time": "Todo el día",
+          "pokemon": "Tentacool",
+          "method": "Surf",
           "rate": "60%",
-          "method": "Surf"
+          "levels": "Nv. 15-24"
         },
         {
-          "pid": 90,
-          "pokemon": "Shellder",
-          "time": "Todo el día",
-          "rate": "30%",
-          "method": "Surf"
-        },
-        {
-          "pid": 341,
-          "pokemon": "Corphish",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 339,
-          "pokemon": "Barboach",
-          "time": "Todo el día",
+          "pokemon": "Tentacruel",
+          "method": "Surf",
           "rate": "4%",
-          "method": "Surf"
+          "levels": "Nv. 20-24"
         },
         {
-          "pid": 456,
-          "pokemon": "Finneon",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
         }
       ]
     },
@@ -358634,48 +363091,202 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
       "connections": [],
       "encounters": [
         {
-          "pid": 821,
-          "pokemon": "Pyukumuku",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 797,
-          "pokemon": "Mareanie",
-          "time": "Todo el día",
+          "pokemon": "Tentacool",
+          "method": "Surf",
           "rate": "60%",
-          "method": "Surf"
+          "levels": "Nv. 15-24"
         },
         {
-          "pid": 1026,
-          "pokemon": "Veluza",
-          "time": "Todo el día",
-          "rate": "30%",
-          "method": "Surf"
-        },
-        {
-          "pid": 370,
-          "pokemon": "Luvdisc",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 644,
-          "pokemon": "Alomomola",
-          "time": "Todo el día",
+          "pokemon": "Tentacruel",
+          "method": "Surf",
           "rate": "4%",
-          "method": "Surf"
+          "levels": "Nv. 20-24"
         },
         {
-          "pid": 952,
-          "pokemon": "Basculegion",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Krabby",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Staryu",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Kingler",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
         }
       ]
+    },
+    {
+      "name": "Ciudad Endrino",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ciudad Endrino.",
+      "connections": [],
+      "encounters": [
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Día)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "rate": "60%",
+          "levels": "Nv. 5-19"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Vieja)",
+          "rate": "Variable",
+          "levels": "Nv. 10"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Caña Buena)",
+          "rate": "Variable",
+          "levels": "Nv. 20"
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Pesca (Supercaña)",
+          "rate": "Variable",
+          "levels": "Nv. 40"
+        },
+        {
+          "pokemon": "None",
+          "method": "Hierba alta (Noche)",
+          "rate": "20%",
+          "levels": "Nv. 5"
+        }
+      ]
+    },
+    {
+      "name": "Pueblo Azalea",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Pueblo Azalea.",
+      "connections": [],
+      "encounters": []
+    },
+    {
+      "name": "Ciudad Trigal",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la aventura en Johto: Ciudad Trigal.",
+      "connections": [],
+      "encounters": []
     },
     {
       "name": "Cueva Acantilado",
@@ -359043,159 +363654,6 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
           "pokemon": "Scyther",
           "time": "Noche",
           "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Encinar",
-      "region": "Johto",
-      "x": 30.6,
-      "y": 77.1,
-      "desc": "Bosque ancestral y sombrío custodiado por el altar del protector del bosque, Celebi.",
-      "connections": [
-        "Pueblo Azalea",
-        "Ruta 34"
-      ],
-      "encounters": [
-        {
-          "pid": 815,
-          "pokemon": "Oranguru",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 915,
-          "pokemon": "Sirfetch’d",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 415,
-          "pokemon": "Combee",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 83,
-          "pokemon": "Farfetch’d",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 77,
-          "pokemon": "Ponyta",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 906,
-          "pokemon": "Hatenna",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 204,
-          "pokemon": "Pineco",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 102,
-          "pokemon": "Exeggcute",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 313,
-          "pokemon": "Volbeat",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 213,
-          "pokemon": "Shuckle",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 214,
-          "pokemon": "Heracross",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 590,
-          "pokemon": "Sewaddle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 83,
-          "pokemon": "Farfetch’d",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 758,
-          "pokemon": "Phantump",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 760,
-          "pokemon": "Pumpkaboo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 204,
-          "pokemon": "Pineco",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 114,
-          "pokemon": "Tangela",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 314,
-          "pokemon": "Illumise",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 198,
-          "pokemon": "Murkrow",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 127,
-          "pokemon": "Pinsir",
-          "time": "Noche",
-          "rate": "1%",
           "method": "Hierba"
         }
       ]
@@ -360043,2580 +364501,6 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
           "pokemon": "Unown",
           "time": "Noche",
           "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 29",
-      "region": "Johto",
-      "x": 60.1,
-      "y": 71.5,
-      "desc": "Conecta Pueblo Primavera al este con Ciudad Cerezo al oeste.",
-      "connections": [
-        "Pueblo Primavera",
-        "Ciudad Cerezo",
-        "Ruta 46"
-      ],
-      "encounters": [
-        {
-          "pid": 396,
-          "pokemon": "Starly",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 709,
-          "pokemon": "Bunnelby",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 399,
-          "pokemon": "Bidoof",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 161,
-          "pokemon": "Sentret",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 881,
-          "pokemon": "Wooloo",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 16,
-          "pokemon": "Pidgey",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 431,
-          "pokemon": "Glameow",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 971,
-          "pokemon": "Pawmi",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 263,
-          "pokemon": "Zigzagoon",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 556,
-          "pokemon": "Lillipup",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 724,
-          "pokemon": "Pancham",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 559,
-          "pokemon": "Purrloin",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 261,
-          "pokemon": "Poochyena",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 163,
-          "pokemon": "Hoothoot",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 30",
-      "region": "Johto",
-      "x": 53.1,
-      "y": 59.4,
-      "desc": "Se extiende hacia el norte desde Ciudad Cerezo hasta la casa del Sr. Pokémon y la Ruta 31.",
-      "connections": [
-        "Ciudad Cerezo",
-        "Ruta 31"
-      ],
-      "encounters": [
-        {
-          "pid": 967,
-          "pokemon": "Tarountula",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 786,
-          "pokemon": "Grubbin",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 714,
-          "pokemon": "Scatterbug",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 283,
-          "pokemon": "Surskit",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 265,
-          "pokemon": "Wurmple",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 167,
-          "pokemon": "Spinarak",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 165,
-          "pokemon": "Ledyba",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 10,
-          "pokemon": "Caterpie",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 13,
-          "pokemon": "Weedle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 593,
-          "pokemon": "Venipede",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 48,
-          "pokemon": "Venonat",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 900,
-          "pokemon": "Sizzlipede",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 805,
-          "pokemon": "Morelull",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 874,
-          "pokemon": "Blipbug",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 969,
-          "pokemon": "Nymble",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 451,
-          "pokemon": "Skorupi",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 290,
-          "pokemon": "Nincada",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 31",
-      "region": "Johto",
-      "x": 49.6,
-      "y": 48.3,
-      "desc": "Conecta la Ruta 30 con Ciudad Malvalba y da acceso a la Cueva Oscura.",
-      "connections": [
-        "Ciudad Malvalba",
-        "Cueva Oscura",
-        "Ruta 30"
-      ],
-      "encounters": [
-        {
-          "pid": 569,
-          "pokemon": "Pidove",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 418,
-          "pokemon": "Buizel",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 781,
-          "pokemon": "Pikipek",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 792,
-          "pokemon": "Cutiefly",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 801,
-          "pokemon": "Dewpider",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 976,
-          "pokemon": "Fidough",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 191,
-          "pokemon": "Sunkern",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 554,
-          "pokemon": "Patrat",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 890,
-          "pokemon": "Applin",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 974,
-          "pokemon": "Tandemaus",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 601,
-          "pokemon": "Sandile",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 817,
-          "pokemon": "Wimpod",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 401,
-          "pokemon": "Kricketot",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 32",
-      "region": "Johto",
-      "x": 46.2,
-      "y": 61.5,
-      "desc": "Larga vía costera hacia el sur entre Ciudad Malvalba y la Cueva Unión.",
-      "connections": [
-        "Ciudad Malvalba",
-        "Ruinas Alfa",
-        "Cueva Unión"
-      ],
-      "encounters": [
-        {
-          "pid": 1030,
-          "pokemon": "Clodsire",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 270,
-          "pokemon": "Lotad",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 187,
-          "pokemon": "Hoppip",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 406,
-          "pokemon": "Budew",
-          "time": "Mañana y Día",
-          "rate": "18%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 179,
-          "pokemon": "Mareep",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 711,
-          "pokemon": "Fletchling",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 280,
-          "pokemon": "Ralts",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 814,
-          "pokemon": "Comfey",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 273,
-          "pokemon": "Seedot",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 998,
-          "pokemon": "Toedscool",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 285,
-          "pokemon": "Shroomish",
-          "time": "Noche",
-          "rate": "18%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 722,
-          "pokemon": "Skiddo",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 871,
-          "pokemon": "Rookidee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 412,
-          "pokemon": "Burmy",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 222,
-          "pokemon": "Corsola",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 33",
-      "region": "Johto",
-      "x": 42.7,
-      "y": 81.4,
-      "desc": "Corta ruta lluviosa que une la salida de la Cueva Unión con Pueblo Azalea.",
-      "connections": [
-        "Cueva Unión",
-        "Pueblo Azalea"
-      ],
-      "encounters": [
-        {
-          "pid": 336,
-          "pokemon": "Seviper",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 216,
-          "pokemon": "Teddiursa",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 794,
-          "pokemon": "Rockruff",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 172,
-          "pokemon": "Pichu",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 561,
-          "pokemon": "Pansage",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 563,
-          "pokemon": "Pansear",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 565,
-          "pokemon": "Panpour",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 239,
-          "pokemon": "Elekid",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 174,
-          "pokemon": "Igglybuff",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 216,
-          "pokemon": "Teddiursa",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 287,
-          "pokemon": "Slakoth",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 994,
-          "pokemon": "Shroodle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1007,
-          "pokemon": "Tinkatink",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 240,
-          "pokemon": "Magby",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 173,
-          "pokemon": "Cleffa",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 298,
-          "pokemon": "Azurill",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 34",
-      "region": "Johto",
-      "x": 30.6,
-      "y": 68.8,
-      "desc": "Concurrente camino entre el Encinar y Ciudad Trigal. Aloja la Guardería Pokémon.",
-      "connections": [
-        "Encinar",
-        "Ciudad Trigal"
-      ],
-      "encounters": [
-        {
-          "pid": 96,
-          "pokemon": "Drowzee",
-          "time": "Todo el día",
-          "rate": "50%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Todo el día",
-          "rate": "30%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 96,
-          "pokemon": "Drowzee",
-          "time": "Mañana",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 96,
-          "pokemon": "Drowzee",
-          "time": "Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 96,
-          "pokemon": "Drowzee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Mañana",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Mañana",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Día",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Mañana",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 16,
-          "pokemon": "Pidgey",
-          "time": "Mañana",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 16,
-          "pokemon": "Pidgey",
-          "time": "Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 163,
-          "pokemon": "Hoothoot",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 52,
-          "pokemon": "Meowth",
-          "time": "Mañana",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 52,
-          "pokemon": "Meowth",
-          "time": "Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 92,
-          "pokemon": "Gastly",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Mañana",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 228,
-          "pokemon": "Houndour",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 39,
-          "pokemon": "Jigglypuff",
-          "time": "Mañana",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 39,
-          "pokemon": "Jigglypuff",
-          "time": "Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 198,
-          "pokemon": "Murkrow",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 190,
-          "pokemon": "Aipom",
-          "time": "Mañana",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 190,
-          "pokemon": "Aipom",
-          "time": "Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 167,
-          "pokemon": "Spinarak",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 280,
-          "pokemon": "Ralts",
-          "time": "Mañana",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 280,
-          "pokemon": "Ralts",
-          "time": "Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 200,
-          "pokemon": "Misdreavus",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 35",
-      "region": "Johto",
-      "x": 32.7,
-      "y": 52.1,
-      "desc": "Ruta hacia el norte que conecta Ciudad Trigal con la entrada sur del Parque Nacional.",
-      "connections": [
-        "Ciudad Trigal",
-        "Parque Nacional",
-        "Ruta 36"
-      ],
-      "encounters": [
-        {
-          "pid": 719,
-          "pokemon": "Flabébé",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 27,
-          "pokemon": "Sandshrew",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 300,
-          "pokemon": "Skitty",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 56,
-          "pokemon": "Mankey",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 427,
-          "pokemon": "Buneary",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 236,
-          "pokemon": "Tyrogue",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 635,
-          "pokemon": "Deerling",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 928,
-          "pokemon": "Cufant",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 630,
-          "pokemon": "Ducklett",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 581,
-          "pokemon": "Audino",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1023,
-          "pokemon": "Flamigo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 734,
-          "pokemon": "Swirlix",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 732,
-          "pokemon": "Spritzee",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 36",
-      "region": "Johto",
-      "x": 40.4,
-      "y": 48.3,
-      "desc": "Cruce estratégico que conecta Ciudad Malvalba, el Parque Nacional y Ciudad Iris.",
-      "connections": [
-        "Ciudad Malvalba",
-        "Parque Nacional",
-        "Ruta 37",
-        "Ruinas Alfa"
-      ],
-      "encounters": [
-        {
-          "pid": 66,
-          "pokemon": "Machop",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 133,
-          "pokemon": "Eevee",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 228,
-          "pokemon": "Houndour",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 316,
-          "pokemon": "Gulpin",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 807,
-          "pokemon": "Salandit",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 918,
-          "pokemon": "Milcery",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 990,
-          "pokemon": "Wattrel",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 311,
-          "pokemon": "Plusle",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 312,
-          "pokemon": "Minun",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 66,
-          "pokemon": "Machop",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 133,
-          "pokemon": "Eevee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 228,
-          "pokemon": "Houndour",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 316,
-          "pokemon": "Gulpin",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 807,
-          "pokemon": "Salandit",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 918,
-          "pokemon": "Milcery",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 990,
-          "pokemon": "Wattrel",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 311,
-          "pokemon": "Plusle",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 312,
-          "pokemon": "Minun",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 37",
-      "region": "Johto",
-      "x": 37.4,
-      "y": 41.7,
-      "desc": "Sendero flanqueado por árboles de bayas que conduce a las puertas de Ciudad Iris.",
-      "connections": [
-        "Ruta 36",
-        "Ciudad Iris"
-      ],
-      "encounters": [
-        {
-          "pid": 645,
-          "pokemon": "Joltik",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 652,
-          "pokemon": "Tynamo",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 640,
-          "pokemon": "Foongus",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1001,
-          "pokemon": "Capsakid",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 453,
-          "pokemon": "Croagunk",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 434,
-          "pokemon": "Stunky",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 333,
-          "pokemon": "Swablu",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 637,
-          "pokemon": "Emolga",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 645,
-          "pokemon": "Joltik",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 652,
-          "pokemon": "Tynamo",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 640,
-          "pokemon": "Foongus",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1001,
-          "pokemon": "Capsakid",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 453,
-          "pokemon": "Croagunk",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 434,
-          "pokemon": "Stunky",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 333,
-          "pokemon": "Swablu",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 637,
-          "pokemon": "Emolga",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 38",
-      "region": "Johto",
-      "x": 31.9,
-      "y": 35.0,
-      "desc": "Vía campestre hacia el oeste desde Ciudad Iris hacia la Granja Mumu.",
-      "connections": [
-        "Ciudad Iris",
-        "Ruta 39"
-      ],
-      "encounters": [
-        {
-          "pid": 666,
-          "pokemon": "Shelmet",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 638,
-          "pokemon": "Karrablast",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 278,
-          "pokemon": "Wingull",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 194,
-          "pokemon": "Wooper",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 60,
-          "pokemon": "Poliwag",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 81,
-          "pokemon": "Magnemite",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 100,
-          "pokemon": "Voltorb",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 118,
-          "pokemon": "Goldeen",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 227,
-          "pokemon": "Skarmory",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 211,
-          "pokemon": "Qwilfish",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 206,
-          "pokemon": "Dunsparce",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 577,
-          "pokemon": "Woobat",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 194,
-          "pokemon": "Wooper",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 60,
-          "pokemon": "Poliwag",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 81,
-          "pokemon": "Magnemite",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 100,
-          "pokemon": "Voltorb",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 118,
-          "pokemon": "Goldeen",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 207,
-          "pokemon": "Gligar",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 211,
-          "pokemon": "Qwilfish",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 206,
-          "pokemon": "Dunsparce",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 39",
-      "region": "Johto",
-      "x": 28.0,
-      "y": 40.6,
-      "desc": "Camino rural que bordea la Granja Mumu y desciende hacia Ciudad Olivo.",
-      "connections": [
-        "Ruta 38",
-        "Ciudad Olivo"
-      ],
-      "encounters": [
-        {
-          "pid": 1017,
-          "pokemon": "Cyclizar",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 912,
-          "pokemon": "Obstagoon",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 809,
-          "pokemon": "Stufful",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 609,
-          "pokemon": "Scraggy",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 649,
-          "pokemon": "Klink",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 449,
-          "pokemon": "Hippopotas",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 799,
-          "pokemon": "Mudbray",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 726,
-          "pokemon": "Furfrou",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 440,
-          "pokemon": "Happiny",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 241,
-          "pokemon": "Miltank",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 234,
-          "pokemon": "Stantler",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 674,
-          "pokemon": "Pawniard",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 609,
-          "pokemon": "Scraggy",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 649,
-          "pokemon": "Klink",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 449,
-          "pokemon": "Hippopotas",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 799,
-          "pokemon": "Mudbray",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 726,
-          "pokemon": "Furfrou",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 440,
-          "pokemon": "Happiny",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 128,
-          "pokemon": "Tauros",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 676,
-          "pokemon": "Bouffalant",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 40",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 829,
-          "pokemon": "Bruxish",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 120,
-          "pokemon": "Staryu",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 170,
-          "pokemon": "Chinchou",
-          "time": "Todo el día",
-          "rate": "65%",
-          "method": "Surf"
-        },
-        {
-          "pid": 318,
-          "pokemon": "Carvanha",
-          "time": "Todo el día",
-          "rate": "34%",
-          "method": "Surf"
-        },
-        {
-          "pid": 369,
-          "pokemon": "Relicanth",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 41",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 366,
-          "pokemon": "Clamperl",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 954,
-          "pokemon": "Overqwil",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 223,
-          "pokemon": "Remoraid",
-          "time": "Todo el día",
-          "rate": "60%",
-          "method": "Surf"
-        },
-        {
-          "pid": 320,
-          "pokemon": "Wailmer",
-          "time": "Todo el día",
-          "rate": "30%",
-          "method": "Surf"
-        },
-        {
-          "pid": 72,
-          "pokemon": "Tentacool",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 86,
-          "pokemon": "Seel",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 600,
-          "pokemon": "Basculin",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 42",
-      "region": "Johto",
-      "x": 44.4,
-      "y": 36.5,
-      "desc": "Ruta escarpada que bordea tres accesos al Monte Mortero entre Iris y Caoba.",
-      "connections": [
-        "Ciudad Iris",
-        "Monte Mortero",
-        "Pueblo Caoba"
-      ],
-      "encounters": [
-        {
-          "pid": 441,
-          "pokemon": "Chatot",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 455,
-          "pokemon": "Carnivine",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 309,
-          "pokemon": "Electrike",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 893,
-          "pokemon": "Silicobra",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1015,
-          "pokemon": "Varoom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 225,
-          "pokemon": "Delibird",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 84,
-          "pokemon": "Doduo",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 235,
-          "pokemon": "Smeargle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 751,
-          "pokemon": "Hawlucha",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 827,
-          "pokemon": "Togedemaru",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 831,
-          "pokemon": "Dhelmise",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 108,
-          "pokemon": "Lickitung",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1015,
-          "pokemon": "Varoom",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 225,
-          "pokemon": "Delibird",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 84,
-          "pokemon": "Doduo",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 235,
-          "pokemon": "Smeargle",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 43",
-      "region": "Johto",
-      "x": 51.5,
-      "y": 27.1,
-      "desc": "Camino septentrional que sube desde Pueblo Caoba hasta las orillas del Lago de la Furia.",
-      "connections": [
-        "Pueblo Caoba",
-        "Lago de la Furia"
-      ],
-      "encounters": [
-        {
-          "pid": 357,
-          "pokemon": "Tropius",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 352,
-          "pokemon": "Kecleon",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 193,
-          "pokemon": "Yanma",
-          "time": "Mañana y Día",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 203,
-          "pokemon": "Girafarig",
-          "time": "Mañana y Día",
-          "rate": "39%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 757,
-          "pokemon": "Klefki",
-          "time": "Mañana y Día",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 351,
-          "pokemon": "Castform",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 193,
-          "pokemon": "Yanma",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 203,
-          "pokemon": "Girafarig",
-          "time": "Noche",
-          "rate": "39%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 757,
-          "pokemon": "Klefki",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 351,
-          "pokemon": "Castform",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 46",
-      "region": "Johto",
-      "x": 62.5,
-      "y": 63.5,
-      "desc": "Desfiladero montañoso escalonado que conecta la Ruta 29 con la Ruta 45.",
-      "connections": [
-        "Ruta 29",
-        "Ruta 45",
-        "Cueva Oscura"
-      ],
-      "encounters": [
-        {
-          "pid": 924,
-          "pokemon": "Stonjourner",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 744,
-          "pokemon": "Helioptile",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 276,
-          "pokemon": "Taillow",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 190,
-          "pokemon": "Aipom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 596,
-          "pokemon": "Cottonee",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 598,
-          "pokemon": "Petilil",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 622,
-          "pokemon": "Minccino",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 420,
-          "pokemon": "Cherubi",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 572,
-          "pokemon": "Blitzle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 29,
-          "pokemon": "Nidoran♀",
-          "time": "Mañana y Día",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 417,
-          "pokemon": "Pachirisu",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 403,
-          "pokemon": "Shinx",
-          "time": "Noche",
-          "rate": "30%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 729,
-          "pokemon": "Honedge",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 992,
-          "pokemon": "Maschiff",
-          "time": "Noche",
-          "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 23,
-          "pokemon": "Ekans",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 803,
-          "pokemon": "Fomantis",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 32,
-          "pokemon": "Nidoran♂",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 47",
-      "region": "Johto",
-      "x": 11.1,
-      "y": 63.1,
-      "desc": "Ruta sobre acantilados rocosos y cascadas inaugurada en HGSS al oeste de Orquídea.",
-      "connections": [
-        "Ciudad Orquídea",
-        "Ruta 48",
-        "Cueva Acantilado"
-      ],
-      "encounters": [
-        {
-          "pid": 962,
-          "pokemon": "Quaxly",
-          "time": "Todo el día",
-          "rate": "60%",
-          "method": "Surf"
-        },
-        {
-          "pid": 706,
-          "pokemon": "Froakie",
-          "time": "Todo el día",
-          "rate": "30%",
-          "method": "Surf"
-        },
-        {
-          "pid": 778,
-          "pokemon": "Popplio",
-          "time": "Todo el día",
-          "rate": "5%",
-          "method": "Surf"
-        },
-        {
-          "pid": 866,
-          "pokemon": "Sobble",
-          "time": "Todo el día",
-          "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 551,
-          "pokemon": "Oshawott",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
-        },
-        {
-          "pid": 7,
-          "pokemon": "Squirtle",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 158,
-          "pokemon": "Totodile",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 258,
-          "pokemon": "Mudkip",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 393,
-          "pokemon": "Piplup",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 914,
-          "pokemon": "Cursola",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 679,
-          "pokemon": "Vullaby",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 660,
-          "pokemon": "Axew",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1024,
-          "pokemon": "Cetoddle",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1012,
-          "pokemon": "Bombirdier",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 920,
-          "pokemon": "Falinks",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 632,
-          "pokemon": "Vanillite",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 682,
-          "pokemon": "Durant",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 686,
-          "pokemon": "Larvesta",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 335,
-          "pokemon": "Zangoose",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 677,
-          "pokemon": "Rufflet",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 671,
-          "pokemon": "Druddigon",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 660,
-          "pokemon": "Axew",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1024,
-          "pokemon": "Cetoddle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1012,
-          "pokemon": "Bombirdier",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 920,
-          "pokemon": "Falinks",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 632,
-          "pokemon": "Vanillite",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 222,
-          "pokemon": "Corsola",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 686,
-          "pokemon": "Larvesta",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 336,
-          "pokemon": "Seviper",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 826,
-          "pokemon": "Turtonator",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 48",
-      "region": "Johto",
-      "x": 11.1,
-      "y": 54.2,
-      "desc": "Hermoso prado montañoso que conduce al acceso principal de la Zona Safari de Johto.",
-      "connections": [
-        "Ruta 47",
-        "Zona Safari"
-      ],
-      "encounters": [
-        {
-          "pid": 956,
-          "pokemon": "Sprigatito",
-          "time": "Todo el día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 772,
-          "pokemon": "Rowlet",
-          "time": "Todo el día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 860,
-          "pokemon": "Grookey",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 700,
-          "pokemon": "Chespin",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 545,
-          "pokemon": "Snivy",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 387,
-          "pokemon": "Turtwig",
-          "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1,
-          "pokemon": "Bulbasaur",
-          "time": "Todo el día",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 152,
-          "pokemon": "Chikorita",
-          "time": "Todo el día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 252,
-          "pokemon": "Treecko",
-          "time": "Todo el día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1017,
-          "pokemon": "Cyclizar",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 357,
-          "pokemon": "Tropius",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 115,
-          "pokemon": "Kangaskhan",
-          "time": "Mañana y Día",
-          "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 668,
-          "pokemon": "Stunfisk",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 352,
-          "pokemon": "Kecleon",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 815,
-          "pokemon": "Oranguru",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 666,
-          "pokemon": "Shelmet",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 902,
-          "pokemon": "Clobbopus",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 924,
-          "pokemon": "Stonjourner",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 359,
-          "pokemon": "Absol",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 829,
-          "pokemon": "Bruxish",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 352,
-          "pokemon": "Kecleon",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 830,
-          "pokemon": "Drampa",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 638,
-          "pokemon": "Karrablast",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 115,
-          "pokemon": "Kangaskhan",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta Helada",
-      "region": "Johto",
-      "x": 61.8,
-      "y": 33.4,
-      "desc": "Peligrosa caverna glaciar cubierta de placas resbaladizas entre Caoba y Endrino.",
-      "connections": [
-        "Ruta 44",
-        "Ciudad Endrino"
-      ],
-      "encounters": [
-        {
-          "pid": 916,
-          "pokemon": "Mr. Rime",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 361,
-          "pokemon": "Snorunt",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 363,
-          "pokemon": "Spheal",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 663,
-          "pokemon": "Cubchoo",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 220,
-          "pokemon": "Swinub",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 459,
-          "pokemon": "Snover",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 922,
-          "pokemon": "Snom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 604,
-          "pokemon": "Darumaka",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 238,
-          "pokemon": "Smoochum",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 124,
-          "pokemon": "Jynx",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 665,
-          "pokemon": "Cryogonal",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 361,
-          "pokemon": "Snorunt",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 363,
-          "pokemon": "Spheal",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 663,
-          "pokemon": "Cubchoo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 220,
-          "pokemon": "Swinub",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 459,
-          "pokemon": "Snover",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 922,
-          "pokemon": "Snom",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 604,
-          "pokemon": "Darumaka",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 238,
-          "pokemon": "Smoochum",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 124,
-          "pokemon": "Jynx",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 665,
-          "pokemon": "Cryogonal",
-          "time": "Noche",
-          "rate": "2%",
           "method": "Hierba"
         }
       ]
@@ -364344,86 +366228,47 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
   ],
   "features": {
     "qol": [
-      "Megaevolución Funcional Completa: Desbloquea el Mega-Aro en cualquier Tienda Pokémon tras obtener la 5.ª Medalla (Aníbal/Orquídea). Equipa la Megapiedra a tu Pokémon y pulsa el botón táctil de Megaevolución antes de atacar para transformarlo al instante.",
-      "Acceso Portátil al PC (Botón L / L1): Pulsa L en el mapa en cualquier momento fuera de combate para abrir y gestionar las Cajas Pokémon de tu PC sin necesidad de acudir a un Centro Pokémon.",
-      "Repartir Experiencia Moderno (EXP All Gen 6+): Todos los Pokémon del equipo reciben experiencia tras cada batalla sin restar puntos a los combatientes activos.",
-      "Curación Automática Pre-Boss: El equipo se cura por completo (PS, PP y estados) justo antes de combatir contra Líderes de Gimnasio y Rivales.",
-      "Reordenación de Ataques con Botón SELECT: Pulsa SELECT en combate para cambiar el orden de tus movimientos al instante de manera persistente.",
-      "Inspección Táctica en Combate (Botón START o L/R): Consulta en pantalla superior una ventana interactiva de 3 páginas con modificadores de estadísticas (-6 a +6) propias y del rival, y turnos restantes de clima (Lluvia, Sol, Tormenta de Arena, Granizo) y barreras (Reflejo, Pantalla de Luz, Espacio Raro).",
-      "Visualizador de IVs y EVs en el Sumario (Botón SELECT): Alterna en tiempo real entre Estadísticas Calculadas, IVs exactos (0-31) y EVs acumulados (0-252) con coloreado por naturaleza (verde incremento, rojo reducción) en el equipo y cajas del PC.",
-      "Supresión de Dependencia de MOs en Equipo: Ejecuta Corte, Surf, Fuerza, Golpe Roca, Cascada, Treparrocas y Torbellino directamente teniendo la Medalla y el ítem MO en la Mochila, y vuela desde el menú del equipo con cualquier Pokémon.",
-      "Modo de Combate 'Sin Cambios' Permanente (Set Mode): Combates dinámicos y competitivos sin pantalla de aviso de cambio de Pokémon cuando el rival saca un nuevo miembro.",
-      "6 Embajadores Regionales de Iniciales: En los Centros Pokémon de Johto tras ganar cada medalla, desafía a los embajadores de Teselia, Sinnoh, Alola, Kalos, Galar y Paldea a combates temáticos al level cap para recibir a los iniciales a Nivel 5 con objetos competitivos.",
-      "Ecosistema Safari con 27 Iniciales Salvajes: Iniciales de todas las generaciones capturables en estado salvaje en las Rutas 47, 48 y Cueva Acantilado.",
-      "8 Familias Pseudolegendarias en Guarida Dragón: Captura en su hábitat natural a Dratini, Larvitar, Bagon, Beldum, Gible, Deino, Goomy y Dreepy.",
-      "Evento Endgame de Celebi & Giovanni: Al vencer la Liga Pokémon, viaja en el tiempo en el Altar del Encinar para enfrentarte a Giovanni con un equipo competitivo escalado a tu nivel y captura a Celebi Nivel 50 post-evento.",
-      "Objetos de Calidad de Vida Infinitos: Caramelo Raro Infinito, Bolsa de Curación Infinita (Pocket Heal) y Repelente Infinito entregados por el ayudante del Profesor Elm.",
-      "Escamas Corazón y Master Balls Gratuitas: Escamas Corazón gratis tras 7 medallas (para recordar movimientos ilimitados) y Master Balls gratis tras 8 medallas en Tiendas Pokémon.",
-      "Tienda Competitiva & Evolutiva (56 Objetos): Centros Comerciales de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evolutivo y piedras evolutivas a precios accesibles de 4 dígitos.",
-      "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio del Profesor Elm para adaptar naturalezas sin grindeo.",
-      "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
-      "Frame Rate Desbloqueado a 60 FPS: Experiencia visual suave y fluida en emuladores compatibles.",
-      "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo."
+      "Motor Base GBA Descompilado (HD 2D): Desarrollado sobre la arquitectura de decompilación de Game Boy Advance con la región de Johto y Kanto recreada fielmente con gráficos nítidos y sin cuelgues.",
+      "Motor de Combate Completo Gen 9 en GBA: División Físico/Especial por icono, tipo Hada introducido, movimientos y habilidades modernas actualizadas hasta la última generación.",
+      "Velocidad de Diálogo Instantánea/Rápida: El texto fluye a máxima velocidad por defecto en todas las conversaciones y eventos.",
+      "Animaciones de Combate Optimizadas: Entrada a batalla acelerada y transiciones ágiles para un combate dinámico.",
+      "Omisión de Pausas de Texto: Eliminadas las demoras y pausas artificiales en diálogos de NPCs para una lectura fluida.",
+      "Curación Exprés en Centros Pokémon: La Enfermera Joy atiende a tu equipo de forma directa y veloz, ahorrando tiempo en cada visita.",
+      "Menús Limpios y Sin Distracciones: Supresión total de menús y opciones innecesarias de Nuzlocke y Randomizador; el juego está calibrado en su dificultad nativa.",
+      "Sistema de Level Caps Estricto: Curva de dificultad equilibrada por cada medalla de gimnasio para garantizar combates estratégicos sin requerir grindeo excesivo.",
+      "Progresión Limpia de EVs e IVs: Eliminadas las restricciones competitivas artificiales de EVs e IVs basadas en medallas, permitiendo un entrenamiento natural.",
+      "Ciclo Día y Noche en Tiempo Real (RTC GBA): Encuentros salvajes diferenciados por franja horaria (mañana/día y noche) utilizando el reloj interno de GBA.",
+      "Megaevoluciones en Combate GBA: Activa la transformación en combate pulsando START antes de seleccionar tu movimiento, tras equipar la correspondiente Megapiedra y portar el Mega-Aro.",
+      "Controles Ergonómicos Nativos GBA: Soporte completo para mandos físicos (D-Pad, A, B, L, R, Start, Select) sin necesidad de emulación táctil ni doble pantalla.",
+      "Traducción 100% en Castellano Oficial: Nombres de ataques, habilidades, objetos, lugares y diálogos adaptados a la localización oficial de Nintendo España y WikiDex."
     ],
     "bugs": [
       {
-        "issue": "Cierre / Pantallazo tras coronarse en el Hall de la Fama en melonDS",
-        "fix": "Usa DeSmuME para guardar tras vencer al Alto Mando y Lance, luego puedes volver a cargar tu partida en melonDS o emulador móvil."
+        "issue": "Emulador Recomendado para GBA",
+        "fix": "Se recomienda encarecidamente utilizar mGBA (v0.10 o superior) en PC/Mac/Linux o RetroArch (mGBA core) para una emulación perfecta de sonido, vídeo y reloj en tiempo real."
       },
       {
-        "issue": "Combate doble contra Ariana en Pueblo Caoba si ambos oponentes caen a la vez",
-        "fix": "Guarda la partida antes del combate y debilita a los Pokémon uno a uno."
+        "issue": "Configuración del Reloj en Tiempo Real (RTC)",
+        "fix": "Asegúrate de tener activada la opción 'Real Time Clock (RTC)' en tu emulador para que el ciclo de Día y Noche funcione de acuerdo con la hora local de tu equipo."
       },
       {
-        "issue": "Movimientos de absorción (Megaagotar, Gigadrenado) si el rival es resistente",
-        "fix": "No otorgan curación si el daño es no es muy eficaz."
+        "issue": "Tipo de Guardado GBA",
+        "fix": "El tipo de guardado recomendado es Flash 128K o detección automática. Guarda la partida normalmente desde el menú START del juego."
       }
     ]
   },
   "non_included": [
     {
-      "name": "Komala",
-      "reason": "Falta de habilidad propia"
+      "name": "Modos Nuzlocke y Randomizador en Menú",
+      "reason": "Eliminados por diseño para preservar la experiencia de aventura pura y equilibrada."
     },
     {
-      "name": "Dondozo",
-      "reason": "Falta de habilidad / mecánica Comilón"
+      "name": "Restricciones Artificiales de EVs por Medalla",
+      "reason": "Eliminadas para volver al sistema clásico y natural de entrenamiento."
     },
     {
-      "name": "Tatsugiri",
-      "reason": "Falta de habilidad propia"
-    },
-    {
-      "name": "Oricorio",
-      "reason": "Falta de habilidad Pareja de Baile"
-    },
-    {
-      "name": "Cosmog / Cosmoem",
-      "reason": "Legendario excluido"
-    },
-    {
-      "name": "Necrozma",
-      "reason": "Legendario / mecánicas de fusión"
-    },
-    {
-      "name": "Wo-Chien",
-      "reason": "Legendario no implementado"
-    },
-    {
-      "name": "Munkidori",
-      "reason": "Legendario no implementado"
-    },
-    {
-      "name": "Bounsweet / Steenee / Tsareena",
-      "reason": "Falta de sprites / animaciones"
-    },
-    {
-      "name": "Nickit / Thievul",
-      "reason": "Falta de sprites de evolución"
-    },
-    {
-      "name": "Pincurchin",
-      "reason": "Falta de sprites de batalla"
+      "name": "Pantalla Táctil y Funciones NDS",
+      "reason": "No aplican: el juego está construido nativamente para Game Boy Advance (GBA)."
     }
   ]
 };
