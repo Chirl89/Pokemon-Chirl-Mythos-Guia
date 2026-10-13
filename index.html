@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Chirl Mythos - Guía Oficial</title>
+    <style>
+        :root {
+            --primary: #9b59b6;
+            --secondary: #8e44ad;
+            --bg: #0f111a;
+            --card-bg: #1a1c29;
+            --text: #e0e6ed;
+            --text-dim: #9aa5b5;
+            --accent: #f39c12;
+            --success: #2ecc71;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #4a154b, #1a1c29);
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid var(--primary);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.4rem;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            padding: 0.25rem 0.8rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.06);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: var(--accent);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokémon Chirl Mythos</h1>
+        <span class="badge">Versión Oficial: v0.1.0</span>
+        <p style="color: var(--text-dim); margin-top: 0.5rem;">Guía Maestra y Base de Datos del HackROM de Johto y Kanto (GBA Decomp)</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>🌟 Características del Proyecto</h2>
+            <ul>
+                <li><strong>Regiones de Johto y Kanto</strong>: Recreación completa basada en HGSS sobre motor GBA en C (cero cuelgues de memoria o pantallas negras).</li>
+                <li><strong>Pokémon Acompañante</strong>: Sistema donde el Pokémon de tu equipo te sigue en el overworld.</li>
+                <li><strong>Todas las Generaciones (1 a 9)</strong>: Especies, formas de Hisui/Alola/Paldea, movimientos, habilidades y tipos modernos.</li>
+                <li><strong>Motor Táctico de Combate</strong>: Megaevoluciones y Movimientos Z activos; Dinamax desactivado en favor del combate competitivo tradicional.</li>
+                <li><strong>Calidad de Vida Moderna</strong>: Sin dependencia de MOs en equipo, Repartir Exp moderno, visor de IVs/EVs con SELECT.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🗺️ Estado de la Hoja de Ruta (v0.1.0)</h2>
+            <p><strong>Paso 1.0 (Completado):</strong> Despliegue de entorno y primera compilación verificada en RetroArch (core <code>mGBA</code>).</p>
+            <p><strong>Paso 2.0 (En curso):</strong> Configuración de reglas de batalla (Megas/Z-Moves activos, Dinamax desactivado, Modo Set).</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por <strong>Chirl</strong>. Basado en los proyectos de código abierto <em>pokehns-expansion</em>, <em>pokeemerald-expansion (RHH)</em> y <em>pret</em>.</p>
+    </footer>
+</body>
+</html>
