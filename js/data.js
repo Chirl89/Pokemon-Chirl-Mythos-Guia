@@ -39437,8 +39437,8 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
         "total": 309
       },
       "abilities": [
-        "Piel Seca",
-        "Mar Llamas"
+        "Mar Llamas",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -39631,29 +39631,14 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
                   "name": "Typhlosion",
                   "id": 157,
                   "types": [
-                    "Fuego",
-                    "Tierra"
+                    "Fuego"
                   ],
                   "slug": "typhlosion",
                   "evolves_to": [],
-                  "method": "Nivel 36 (sin Marcha Espectral)",
+                  "method": "Nivel 36",
                   "method_type": "level",
                   "item": null,
                   "move": null
-                },
-                {
-                  "name": "Typhlosion de Hisui",
-                  "id": "157_hisui",
-                  "types": [
-                    "Fuego",
-                    "Fantasma"
-                  ],
-                  "slug": "typhlosion-hisui",
-                  "evolves_to": [],
-                  "method": "Conocer Marcha Espectral",
-                  "method_type": "move",
-                  "item": null,
-                  "move": "Marcha Espectral"
                 }
               ],
               "method": "Nivel 14",
@@ -39685,8 +39670,8 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
         "total": 405
       },
       "abilities": [
-        "Piel Seca",
-        "Mar Llamas"
+        "Mar Llamas",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -39872,29 +39857,14 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
                   "name": "Typhlosion",
                   "id": 157,
                   "types": [
-                    "Fuego",
-                    "Tierra"
+                    "Fuego"
                   ],
                   "slug": "typhlosion",
                   "evolves_to": [],
-                  "method": "Nivel 36 (sin Marcha Espectral)",
+                  "method": "Nivel 36",
                   "method_type": "level",
                   "item": null,
                   "move": null
-                },
-                {
-                  "name": "Typhlosion de Hisui",
-                  "id": "157_hisui",
-                  "types": [
-                    "Fuego",
-                    "Fantasma"
-                  ],
-                  "slug": "typhlosion-hisui",
-                  "evolves_to": [],
-                  "method": "Conocer Marcha Espectral",
-                  "method_type": "move",
-                  "item": null,
-                  "move": "Marcha Espectral"
                 }
               ],
               "method": "Nivel 14",
@@ -39906,8 +39876,7 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Typhlosion (Nivel 36 (sin Marcha Espectral))",
-        "Evoluciona a Typhlosion de Hisui (Conocer Marcha Espectral)"
+        "Evoluciona a Typhlosion (Nivel 36)"
       ],
       "slug": "quilava"
     },
@@ -39915,8 +39884,7 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
       "id": 157,
       "name": "Typhlosion",
       "types": [
-        "Fuego",
-        "Tierra"
+        "Fuego"
       ],
       "stats": {
         "hp": 78,
@@ -39928,8 +39896,8 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
         "total": 534
       },
       "abilities": [
-        "Piel Seca",
-        "Mar Llamas"
+        "Mar Llamas",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -40125,29 +40093,14 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
                   "name": "Typhlosion",
                   "id": 157,
                   "types": [
-                    "Fuego",
-                    "Tierra"
+                    "Fuego"
                   ],
                   "slug": "typhlosion",
                   "evolves_to": [],
-                  "method": "Nivel 36 (sin Marcha Espectral)",
+                  "method": "Nivel 36",
                   "method_type": "level",
                   "item": null,
                   "move": null
-                },
-                {
-                  "name": "Typhlosion de Hisui",
-                  "id": "157_hisui",
-                  "types": [
-                    "Fuego",
-                    "Fantasma"
-                  ],
-                  "slug": "typhlosion-hisui",
-                  "evolves_to": [],
-                  "method": "Conocer Marcha Espectral",
-                  "method_type": "move",
-                  "item": null,
-                  "move": "Marcha Espectral"
                 }
               ],
               "method": "Nivel 14",
