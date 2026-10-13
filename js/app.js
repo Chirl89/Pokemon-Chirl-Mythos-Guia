@@ -533,21 +533,30 @@ document.addEventListener("DOMContentLoaded", () => {
               </tr>
             </thead>
             <tbody>
-              ${mon.learnset.map(m => `
+              ${mon.learnset.map(m => {
+                const lvlVal = m.lvl !== undefined ? m.lvl : (m.level !== undefined ? m.level : 0);
+                const moveName = m.name || m.move || "";
+                const moveType = m.type || "Normal";
+                const moveCat = m.cat || m.category || "Físico";
+                const movePow = m.power !== undefined ? m.power : 0;
+                const moveAcc = m.acc !== undefined ? m.acc : (m.accuracy !== undefined ? m.accuracy : 0);
+                const movePp = m.pp !== undefined ? m.pp : 0;
+                const moveId = m.id ? m.id : `'${moveName.replace(/'/g, "\\'")}'`;
+                return `
                 <tr>
-                  <td class="col-lvl">${m.lvl === 0 ? "Evo" : m.lvl}</td>
+                  <td class="col-lvl">${lvlVal === 0 ? "Evo" : lvlVal}</td>
                   <td class="col-name" style="text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                    <a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal(${m.id})">
-                      ${m.name}
+                    <a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal(${moveId})">
+                      ${moveName}
                     </a>
                   </td>
-                  <td class="col-center">${getTypeBadgeHtml(m.type, true)}</td>
-                  <td class="col-center">${getCategoryBadgeHtml(m.cat)}</td>
-                  <td class="col-num">${m.power > 0 ? m.power : "—"}</td>
-                  <td class="col-num">${m.acc > 0 ? m.acc : "—"}</td>
-                  <td class="col-num">${m.pp}</td>
+                  <td class="col-center">${getTypeBadgeHtml(moveType, true)}</td>
+                  <td class="col-center">${getCategoryBadgeHtml(moveCat)}</td>
+                  <td class="col-num">${movePow > 0 ? movePow : "—"}</td>
+                  <td class="col-num">${moveAcc > 0 ? moveAcc : "—"}</td>
+                  <td class="col-num">${movePp}</td>
                 </tr>
-              `).join("")}
+              `}).join("")}
             </tbody>
           </table>
         </div>
