@@ -366227,20 +366227,23 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
     }
   ],
   "features": {
-    "qol": [
-      "Motor Base GBA Descompilado (HD 2D): Desarrollado sobre la arquitectura de decompilación de Game Boy Advance con la región de Johto y Kanto recreada fielmente con gráficos nítidos y sin cuelgues.",
-      "Motor de Combate Completo Gen 9 en GBA: División Físico/Especial por icono, tipo Hada introducido, movimientos y habilidades modernas actualizadas hasta la última generación.",
-      "Velocidad de Diálogo Instantánea/Rápida: El texto fluye a máxima velocidad por defecto en todas las conversaciones y eventos.",
-      "Animaciones de Combate Optimizadas: Entrada a batalla acelerada y transiciones ágiles para un combate dinámico.",
-      "Omisión de Pausas de Texto: Eliminadas las demoras y pausas artificiales en diálogos de NPCs para una lectura fluida.",
-      "Curación Exprés en Centros Pokémon: La Enfermera Joy atiende a tu equipo de forma directa y veloz, ahorrando tiempo en cada visita.",
-      "Menús Limpios y Sin Distracciones: Supresión total de menús y opciones innecesarias de Nuzlocke y Randomizador; el juego está calibrado en su dificultad nativa.",
-      "Sistema de Level Caps Estricto: Curva de dificultad equilibrada por cada medalla de gimnasio para garantizar combates estratégicos sin requerir grindeo excesivo.",
-      "Progresión Limpia de EVs e IVs: Eliminadas las restricciones competitivas artificiales de EVs e IVs basadas en medallas, permitiendo un entrenamiento natural.",
-      "Ciclo Día y Noche en Tiempo Real (RTC GBA): Encuentros salvajes diferenciados por franja horaria (mañana/día y noche) utilizando el reloj interno de GBA.",
-      "Megaevoluciones en Combate GBA: Activa la transformación en combate pulsando START antes de seleccionar tu movimiento, tras equipar la correspondiente Megapiedra y portar el Mega-Aro.",
-      "Controles Ergonómicos Nativos GBA: Soporte completo para mandos físicos (D-Pad, A, B, L, R, Start, Select) sin necesidad de emulación táctil ni doble pantalla.",
-      "Traducción 100% en Castellano Oficial: Nombres de ataques, habilidades, objetos, lugares y diálogos adaptados a la localización oficial de Nintendo España y WikiDex."
+    "implemented": [
+      "ROM Base GBA Compilada y Operativa (v0.1.0): Arquitectura de decompilación pokeemerald-expansion con Johto y Kanto sobre motor GBA en 32 MB.",
+      "Localización en Curso (Paso 2.0 / v0.2.5): Menús principales, selector de nombres, intro del Prof. Oak, diálogos de Pueblo Primavera, Laboratorio Elm, Rutas 29 a 31 y Ciudad Cerezo 100% traducidos al castellano oficial (Nintendo España / WikiDex).",
+      "Glosario Maestro de Combate (v0.2.5): Movimientos, habilidades, objetos, naturalezas y tipos adaptados a la terminología canónica española.",
+      "Encuentros Salvajes Johto GBA: 45 rutas y mapas (_HNS) con tablas de aparición diurnas y nocturnas extraídas directamente de wild_encounters.json."
+    ],
+    "in_progress": [
+      "Traducción Integral de Johto y Kanto (Paso 2.0): Localización de los scripts restantes de ciudades, gimnasios, Team Rocket y eventos principales."
+    ],
+    "planned": [
+      "Paso 3.0: Eliminación de menús de opciones y configuración fija de calidad de vida (texto rápido, animaciones aceleradas, omisión de pausas, curación rápida de la enfermera Joy, supresión total de Nuzlocke y randomizador, fijar level caps estilo HeartGold).",
+      "Paso 4.0: Optimización de tasa de refresco a 60 FPS nativos reales.",
+      "Paso 5.0: Activación de Megaevoluciones (botón START) y Movimientos Z; desactivación de Dinamax; modo Set activo por defecto.",
+      "Paso 6.0: Ajustes de especies y evoluciones especiales (Cyndaquil con Piel Seca y Typhlosion de Hisui).",
+      "Paso 7.0: Repartir Experiencia para todo el equipo y activación de MOs sin necesidad de enseñarlas.",
+      "Paso 8.0: Tiendas competitivas de 56 objetos en C.C. Trigal y Azulona.",
+      "Paso 9.0+: Especialistas de entrenamiento extremo, embajadores de iniciales, eventos de Celebi, Giovanni y jefes especiales."
     ],
     "bugs": [
       {
@@ -366260,7 +366263,7 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
   "non_included": [
     {
       "name": "Modos Nuzlocke y Randomizador en Menú",
-      "reason": "Eliminados por diseño para preservar la experiencia de aventura pura y equilibrada."
+      "reason": "Eliminados por diseño para preservar la experiencia de aventura pura y equilibrada (Paso 3.0)."
     },
     {
       "name": "Restricciones Artificiales de EVs por Medalla",
@@ -366269,6 +366272,104 @@ window.CHIRLMYTHOS_DATA = window.CHIRLGOLD_DATA = {
     {
       "name": "Pantalla Táctil y Funciones NDS",
       "reason": "No aplican: el juego está construido nativamente para Game Boy Advance (GBA)."
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "1.0",
+      "title": "Despliegue y Primera Compilación Limpia",
+      "desc": "Clonado de `pokehns-expansion`, corrección de cabeceras HNS y generación de la primera ROM `pokehns.gba` (32 MB) firmada como `POKEMON CHIRL`.",
+      "status": "implementado"
+    },
+    {
+      "id": "2.0",
+      "title": "Localización Integral al Castellano (100%)",
+      "desc": "Traducción íntegra al español oficial: interfaz/menús/UI, glosario oficial completo (movimientos, habilidades, objetos, naturalezas, tipos), cadenas de combate y la totalidad de diálogos y scripts de Johto y Kanto.",
+      "status": "en curso"
+    },
+    {
+      "id": "3.0",
+      "title": "Eliminación de Opciones y Configuración Fija de Calidad de Vida",
+      "desc": "Eliminación de menús de opciones inicial y global; fijar texto rápido, animación de combate veloz, omisión de pausas y cura rápida de Joy; erradicar Nuzlocke, randomizador, modos especiales y escalado de IVs/EVs por medallas; fijar Level Cap canónico del proyecto anterior.",
+      "status": "pendiente"
+    },
+    {
+      "id": "4.0",
+      "title": "Optimización de Tasa de Refresco y Fluidez (FPS)",
+      "desc": "Estudio e implementación de tasa de refresco: optimización de lógica/animaciones a 60 FPS nativos reales del hardware GBA, eliminación de cuellos de botella a 30 FPS y soporte de alta tasa en emulación.",
+      "status": "pendiente"
+    },
+    {
+      "id": "5.0",
+      "title": "Motor de Batalla: Megas, Z-Moves y Desactivación de Dinamax",
+      "desc": "Configurar `include/config/battle.h` activando Megas y Movimientos Z, y apagando Dinamax en todo el juego. Modo Set activo por defecto.",
+      "status": "pendiente"
+    },
+    {
+      "id": "6.0",
+      "title": "Ajustes de Especies y Evoluciones Especiales",
+      "desc": "Asignar *Piel Seca* a Cyndaquil y evolución a *Typhlosion de Hisui* al aprender *Marcha Espectral*. Portar resto de ajustes de especies.",
+      "status": "pendiente"
+    },
+    {
+      "id": "7.0",
+      "title": "Calidad de Vida (EXP All y MOs)",
+      "desc": "Verificar y ajustar Repartir Exp a todo el equipo y sistema de activación de MOs sin necesidad de enseñarlas en el equipo.",
+      "status": "pendiente"
+    },
+    {
+      "id": "8.0",
+      "title": "Tienda Competitiva Integral (56 ítems)",
+      "desc": "Inyectar catálogo comercial de objetos competitivos (Restos, Vidasfera, Cordón Unión, piedras, mentas) en C.C. Trigal y Azulona.",
+      "status": "pendiente"
+    },
+    {
+      "id": "9.0",
+      "title": "Especialista de Entrenamiento Extremo",
+      "desc": "Implementar NPC en Centros Pokémon para maximizar IVs con Chapas Plateadas/Doradas, resetear EVs y cambiar habilidades/naturalezas.",
+      "status": "pendiente"
+    },
+    {
+      "id": "10.0",
+      "title": "Visualizador de IVs / EVs en Sumario",
+      "desc": "Activar o integrar inspección de IVs (0-31) y EVs (0-252) con coloreado por naturaleza mediante botón SELECT en sumario.",
+      "status": "pendiente"
+    },
+    {
+      "id": "11.0",
+      "title": "Embajadores Regionales e Iniciales salvajes",
+      "desc": "Ubicar los 6 NPCs Embajadores para entrega de iniciales de Gens 4 a 9 y distribución en Parque Nacional / Zona Safari.",
+      "status": "pendiente"
+    },
+    {
+      "id": "12.0",
+      "title": "Hito de Consolidación v1.0.0 (Paridad HGSS)",
+      "desc": "Auditoría de estabilidad de Johto y Kanto completa en RetroArch. Generación de release estable v1.0.0.",
+      "status": "pendiente"
+    },
+    {
+      "id": "13.0",
+      "title": "Evento Especial: Celebi y Giovanni en Encinar",
+      "desc": "Script cinemático de viaje temporal en el Altar del Encinar con combate de alto nivel contra Giovanni y captura de Celebi.",
+      "status": "pendiente"
+    },
+    {
+      "id": "14.0",
+      "title": "Mazmorras y Captura de Bestias y Aves",
+      "desc": "Integración de encuentros estáticos y puzles para Raikou, Entei, Suicune, Lugia, Ho-Oh, Articuno, Zapdos y Moltres.",
+      "status": "pendiente"
+    },
+    {
+      "id": "15.0",
+      "title": "Evento Jefe Secreto: Eternatus Eternamax",
+      "desc": "Combate de incursión aislado contra Eternatus en forma Eternamax como encuentro especial sin alterar las reglas globales.",
+      "status": "pendiente"
+    },
+    {
+      "id": "16.0",
+      "title": "Distorsiones Espaciotemporales (Ultraentes y Paradojas)",
+      "desc": "Portales y zonas dimensionales en el post-game de Kanto con encuentros de Pokémon Paradoja y Ultraentes.",
+      "status": "pendiente"
     }
   ]
 };

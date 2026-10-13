@@ -1195,18 +1195,47 @@ document.addEventListener("DOMContentLoaded", () => {
   function initFeaturesView() {
     const qolList = document.getElementById("qol-list");
     const bugsList = document.getElementById("bugs-list");
-    if (!qolList || !bugsList) return;
+    if (!qolList || !bugsList || !data.features) return;
 
-    qolList.innerHTML = data.features.qol.map(f => `
-      <li style="margin-bottom: 10px; background: var(--bg-card); padding: 12px; border-radius: 8px; border-left: 3px solid var(--gold);">
-        ${f}
-      </li>
-    `).join("");
+    if (data.features.implemented || data.features.in_progress || data.features.planned) {
+      let html = "";
+      if (data.features.implemented && data.features.implemented.length) {
+        html += `<h4 style="color: var(--success); margin: 12px 0 6px 0; font-size: 1.05rem;">✅ Implementado Actualmente</h4>`;
+        html += data.features.implemented.map(f => `
+          <li style="margin-bottom: 8px; background: var(--bg-card); padding: 10px 14px; border-radius: 8px; border-left: 3px solid var(--success);">
+            ${f}
+          </li>
+        `).join("");
+      }
+      if (data.features.in_progress && data.features.in_progress.length) {
+        html += `<h4 style="color: var(--gold); margin: 16px 0 6px 0; font-size: 1.05rem;">⏳ En Curso de Desarrollo (Paso 2.0)</h4>`;
+        html += data.features.in_progress.map(f => `
+          <li style="margin-bottom: 8px; background: var(--bg-card); padding: 10px 14px; border-radius: 8px; border-left: 3px solid var(--gold);">
+            ${f}
+          </li>
+        `).join("");
+      }
+      if (data.features.planned && data.features.planned.length) {
+        html += `<h4 style="color: #94a3b8; margin: 16px 0 6px 0; font-size: 1.05rem;">📋 Planificado en Hoja de Ruta</h4>`;
+        html += data.features.planned.map(f => `
+          <li style="margin-bottom: 8px; background: var(--bg-card); padding: 10px 14px; border-radius: 8px; border-left: 3px solid #64748b;">
+            ${f}
+          </li>
+        `).join("");
+      }
+      qolList.innerHTML = html;
+    } else if (Array.isArray(data.features.qol)) {
+      qolList.innerHTML = data.features.qol.map(f => `
+        <li style="margin-bottom: 10px; background: var(--bg-card); padding: 12px; border-radius: 8px; border-left: 3px solid var(--gold);">
+          ${f}
+        </li>
+      `).join("");
+    }
 
-    bugsList.innerHTML = data.features.bugs.map(b => `
-      <div class="info-card" style="border-left: 3px solid var(--danger);">
-        <h4 style="color: var(--danger); font-size: 1rem; margin-bottom: 4px;">⚠️ ${b.issue}</h4>
-        <p style="font-size: 0.9rem; color: var(--text-muted);"><b>Solución:</b> ${b.fix}</p>
+    bugsList.innerHTML = (data.features.bugs || []).map(b => `
+      <div class="info-card" style="border-left: 3px solid var(--primary); margin-bottom: 10px;">
+        <h4 style="color: var(--primary); font-size: 1rem; margin-bottom: 4px;">🎮 ${b.issue}</h4>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;"><b>Recomendación:</b> ${b.fix}</p>
       </div>
     `).join("");
   }
@@ -1265,6 +1294,145 @@ document.addEventListener("DOMContentLoaded", () => {
     `).join("");
   }
 
+  // =========================================================================
+  // 8. HOJA DE RUTA / ROADMAP & CUADRO DE ANOTACIONES
+  // =========================================================================
+  function initRoadmapView() {
+    const tableBody = document.getElementById("roadmap-table-body");
+    const countDone = document.getElementById("roadmap-count-done");
+    const countDoing = document.getElementById("roadmap-count-doing");
+    const countPending = document.getElementById("roadmap-count-pending");
+    const notesInput = document.getElementById("roadmap-notes-input");
+    const saveBtn = document.getElementById("roadmap-save-btn");
+    const copyBtn = document.getElementById("roadmap-copy-btn");
+    const clearBtn = document.getElementById("roadmap-clear-btn");
+    const notesStatus = document.getElementById("roadmap-notes-status");
+    const lastSavedEl = document.getElementById("roadmap-last-saved");
+
+    const STORAGE_KEY = "pokemon_chirl_mythos_roadmap_notes";
+    const STORAGE_TIME_KEY = "pokemon_chirl_mythos_roadmap_notes_time";
+
+    // 1. Render Table
+    if (tableBody && Array.isArray(data.roadmap)) {
+      let done = 0, doing = 0, pending = 0;
+      tableBody.innerHTML = data.roadmap.map(item => {
+        let badgeColor = "#64748b";
+        let badgeBg = "rgba(100, 116, 139, 0.2)";
+        const st = (item.status || "").toLowerCase();
+        if (st === "implementado") {
+          done++;
+          badgeColor = "var(--success)";
+          badgeBg = "rgba(34, 197, 94, 0.15)";
+        } else if (st === "en curso") {
+          doing++;
+          badgeColor = "var(--gold)";
+          badgeBg = "rgba(251, 191, 36, 0.15)";
+        } else {
+          pending++;
+          badgeColor = "#94a3b8";
+          badgeBg = "rgba(148, 163, 184, 0.15)";
+        }
+
+        return `
+          <tr>
+            <td class="col-num" style="font-weight: 800; color: var(--gold); text-align: center;">${item.id}</td>
+            <td style="font-weight: 700; color: var(--text-main);">${item.title}</td>
+            <td style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;">${item.desc}</td>
+            <td class="col-center" style="text-align: center;">
+              <span style="display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: ${badgeColor}; background: ${badgeBg}; border: 1px solid ${badgeColor};">
+                ${item.status}
+              </span>
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      if (countDone) countDone.textContent = done;
+      if (countDoing) countDoing.textContent = doing;
+      if (countPending) countPending.textContent = pending;
+    }
+
+    // 2. Load Saved Notes
+    if (notesInput) {
+      const savedNotes = localStorage.getItem(STORAGE_KEY) || "";
+      notesInput.value = savedNotes;
+      const savedTime = localStorage.getItem(STORAGE_TIME_KEY);
+      if (savedTime && lastSavedEl) {
+        lastSavedEl.textContent = `Último guardado: ${savedTime}`;
+      }
+
+      // Guardar automáticamente al escribir (debounce 1s)
+      let debounceTimeout;
+      notesInput.addEventListener("input", () => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+          saveNotes(false);
+        }, 1000);
+      });
+    }
+
+    function saveNotes(showFeedback = true) {
+      if (!notesInput) return;
+      const text = notesInput.value;
+      localStorage.setItem(STORAGE_KEY, text);
+      const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      localStorage.setItem(STORAGE_TIME_KEY, now);
+      if (lastSavedEl) lastSavedEl.textContent = `Guardado: ${now}`;
+      if (showFeedback && notesStatus) {
+        notesStatus.textContent = "✅ Notas guardadas localmente";
+        setTimeout(() => { notesStatus.textContent = ""; }, 3000);
+      }
+    }
+
+    if (saveBtn) {
+      saveBtn.addEventListener("click", () => saveNotes(true));
+    }
+
+    if (copyBtn) {
+      copyBtn.addEventListener("click", () => {
+        if (!notesInput) return;
+        const text = notesInput.value.trim();
+        if (!text) {
+          if (notesStatus) {
+            notesStatus.textContent = "⚠️ El cuadro de notas está vacío";
+            setTimeout(() => { notesStatus.textContent = ""; }, 2500);
+          }
+          return;
+        }
+
+        const formatted = `Carlos, he añadido las siguientes notas en la guía web para actualizar el roadmap:\n\n${text}`;
+        navigator.clipboard.writeText(formatted).then(() => {
+          if (notesStatus) {
+            notesStatus.textContent = "📋 ¡Copiado al portapapeles! Pégalo en el chat";
+            setTimeout(() => { notesStatus.textContent = ""; }, 4000);
+          }
+        }).catch(() => {
+          notesInput.select();
+          document.execCommand("copy");
+          if (notesStatus) {
+            notesStatus.textContent = "📋 ¡Copiado al portapapeles!";
+            setTimeout(() => { notesStatus.textContent = ""; }, 3000);
+          }
+        });
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        if (confirm("¿Seguro que deseas vaciar las notas escritas?")) {
+          if (notesInput) notesInput.value = "";
+          localStorage.removeItem(STORAGE_KEY);
+          localStorage.removeItem(STORAGE_TIME_KEY);
+          if (lastSavedEl) lastSavedEl.textContent = "";
+          if (notesStatus) {
+            notesStatus.textContent = "🗑️ Notas borradas";
+            setTimeout(() => { notesStatus.textContent = ""; }, 2500);
+          }
+        }
+      });
+    }
+  }
+
   // Inicializar vistas
   renderPokemonGrid();
   initRoutesView();
@@ -1274,6 +1442,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initFeaturesView();
   initNonIncludedView();
   initAbilitiesView();
+  initRoadmapView();
 
   // Comprobar Hash inicial
   handleHash();

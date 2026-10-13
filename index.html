@@ -79,6 +79,7 @@
     </div>
     <div class="menu-drawer-items">
       <a href="javascript:void(0)" class="dropdown-item active" data-tab="inicio">🏠 Inicio / Portada</a>
+      <a href="javascript:void(0)" class="dropdown-item" data-tab="roadmap">🗺️ Hoja de Ruta / Roadmap</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="pokedex">📖 Pokédex Completa</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="guia">📜 Guía Paso a Paso</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="rutas">🗺️ Rutas & Mapa</a>
@@ -86,7 +87,7 @@
       <a href="javascript:void(0)" class="dropdown-item" data-tab="objetos">🎒 Tiendas & Objetos</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="movimientos">⚔️ Movimientos</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="habilidades">✨ Habilidades</a>
-      <a href="javascript:void(0)" class="dropdown-item" data-tab="novedades">⭐ Novedades Chirl Mythos</a>
+      <a href="javascript:void(0)" class="dropdown-item" data-tab="novedades">⭐ Estado & Novedades</a>
       <a href="javascript:void(0)" class="dropdown-item" data-tab="no-incluidos">🚫 No Incluidos</a>
     </div>
   </nav>
@@ -134,6 +135,15 @@
       <div class="modules-section">
         <h2 class="modules-section-title">🧭 Módulos y Secciones de la Guía</h2>
         <div class="modules-grid">
+          <div class="module-card" onclick="window.switchTab('roadmap')" style="border-left: 4px solid var(--gold);">
+            <div class="module-icon">🗺️</div>
+            <div class="module-info">
+              <h3 style="color: var(--gold);">Hoja de Ruta & Roadmap</h3>
+              <p>Seguimiento en vivo del desarrollo (PLAN_DE_ACCION.md) y cuadro de notas interactivo para nuevas tareas.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
           <div class="module-card" onclick="window.switchTab('pokedex')">
             <div class="module-icon">📖</div>
             <div class="module-info">
@@ -205,6 +215,87 @@
             </div>
             <span class="module-arrow">➔</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISTA: HOJA DE RUTA / ROADMAP -->
+    <section id="view-roadmap" class="tab-view">
+      <div class="walkthrough-header" style="margin-bottom: 24px;">
+        <div>
+          <span style="font-size: 0.85rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Plan de Desarrollo</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; margin: 4px 0;">🗺️ Hoja de Ruta Oficial de Pokémon Chirl Mythos</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0;">
+            Estado de desarrollo en tiempo real sincronizado con el <code style="color: var(--gold);">PLAN_DE_ACCION.md</code> del proyecto.
+          </p>
+        </div>
+      </div>
+
+      <!-- Resumen de Estados -->
+      <div class="hero-stats-row" style="margin-bottom: 24px;">
+        <div class="hero-stat-card" style="border-left: 4px solid var(--success);">
+          <span class="hero-stat-num" id="roadmap-count-done" style="color: var(--success);">1</span>
+          <span class="hero-stat-label">Implementados</span>
+        </div>
+        <div class="hero-stat-card" style="border-left: 4px solid var(--gold);">
+          <span class="hero-stat-num" id="roadmap-count-doing" style="color: var(--gold);">1</span>
+          <span class="hero-stat-label">En Curso (v0.2.5)</span>
+        </div>
+        <div class="hero-stat-card" style="border-left: 4px solid var(--text-muted);">
+          <span class="hero-stat-num" id="roadmap-count-pending" style="color: #94a3b8;">14</span>
+          <span class="hero-stat-label">Pendientes</span>
+        </div>
+      </div>
+
+      <!-- Cuadro Interactivo de Texto Libre para Carlos -->
+      <div class="info-card" style="border-left: 4px solid var(--gold); margin-bottom: 28px; background: rgba(251, 191, 36, 0.04);">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 1.6rem;">📝</span>
+            <div>
+              <h3 style="color: var(--gold); margin: 0; font-size: 1.25rem;">Cuadro de Anotaciones y Nuevas Tareas</h3>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Escribe aquí ideas, ajustes o nuevas tareas. Al decir "actualiza el roadmap", el agente las leerá directamente.</span>
+            </div>
+          </div>
+          <span id="roadmap-notes-status" style="font-size: 0.8rem; font-weight: 700; color: var(--success);"></span>
+        </div>
+
+        <textarea id="roadmap-notes-input" style="width: 100%; min-height: 150px; background: var(--bg-input); color: var(--text-main); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-family: inherit; font-size: 0.95rem; line-height: 1.6; resize: vertical; box-sizing: border-box;" placeholder="Escribe aquí cualquier modificación o nueva tarea para la hoja de ruta. Ejemplo:
+- Añadir como nuevo hito: Configurar música de batalla personalizada.
+- Modificar punto 6.0: Asignar también movimiento característico a Cyndaquil.
+- Priorizar menú de opciones antes del hito de FPS..."></textarea>
+
+        <div style="display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; align-items: center;">
+          <button id="roadmap-save-btn" class="hero-btn hero-btn-primary" style="padding: 10px 18px; font-size: 0.9rem;">💾 Guardar Notas</button>
+          <button id="roadmap-copy-btn" class="hero-btn hero-btn-secondary" style="padding: 10px 18px; font-size: 0.9rem;">📋 Copiar para el Chat</button>
+          <button id="roadmap-clear-btn" class="hero-btn" style="padding: 10px 18px; font-size: 0.9rem; background: rgba(239, 68, 68, 0.2); border: 1px solid var(--danger); color: #fca5a5;">🗑️ Limpiar</button>
+          <span id="roadmap-last-saved" style="margin-left: auto; font-size: 0.8rem; color: var(--text-muted);"></span>
+        </div>
+      </div>
+
+      <!-- Tabla Oficial del Plan de Acción -->
+      <div class="info-card" style="padding: 0; overflow: hidden;">
+        <div style="padding: 18px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+          <div>
+            <h3 style="margin: 0; font-size: 1.2rem;">📋 Tabla Oficial del Plan de Acción</h3>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">Sincronizada estrictamente con PLAN_DE_ACCION.md (4 columnas oficiales)</span>
+          </div>
+          <span style="font-size: 0.8rem; background: var(--bg-input); padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border);">v0.2.5</span>
+        </div>
+        <div class="learnset-table-wrapper" style="margin: 0; border: none; border-radius: 0;">
+          <table class="learnset-table" id="roadmap-table">
+            <thead>
+              <tr>
+                <th style="width: 80px; text-align: center;">N.º</th>
+                <th style="width: 260px; text-align: left;">Punto / Hito</th>
+                <th style="text-align: left;">Breve Descripción</th>
+                <th style="width: 140px; text-align: center;">Estado</th>
+              </tr>
+            </thead>
+            <tbody id="roadmap-table-body">
+              <!-- Renderizado dinámico desde data.roadmap -->
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
@@ -283,7 +374,7 @@
               <li>🌿 <b>Chikorita</b> (Planta): Opción defensiva y de soporte con Reflejo, Pantalla de Luz y Drenadoras.</li>
             </ul>
             <div class="walkthrough-tip">
-              💡 <b>Ventaja Chirl Mythos:</b> El ayudante del Profesor Elm en el laboratorio te entrega <b>21 Mentas de Naturaleza</b> para personalizar las estadísticas de tus Pokémon desde el minuto 1, además del Caramelo Raro Infinito, Repelente Infinito y la Bolsa de Curación. Además, pulsa <b>Botón L (o L1)</b> en cualquier momento en el overworld para abrir las <b>Cajas del PC</b> de forma portátil sin ir al Centro Pokémon.
+              💡 <b>Estado Actual Implementado:</b> Pueblo Primavera, el Laboratorio del Profesor Elm, la Ruta 29, Ciudad Cerezo y la Ruta 30 hasta la Casa del Sr. Pokémon están 100% traducidos al castellano oficial. Los diálogos de tu madre, la entrega del Pokégear y la Pokédex del Profesor Oak están completamente activos y traducidos.
             </div>
             <p>Avanza por la <b>Ruta 29</b> hacia el oeste derrotando Pokémon salvajes hasta llegar a <b>Ciudad Cerezo</b>. Sube hacia el norte por la <b>Ruta 30</b> hasta la <b>Casa del Sr. Pokémon</b>, donde recibirás el <b>Huevo Misterioso</b> y la <b>Pokédex</b> de manos del Profesor Oak.</p>
             <p>Al regresar hacia Ciudad Cerezo, serás interceptado por tu misterioso <b>Rival pelirrojo</b>. Derrótalo aprovechando la ventaja de tipo y vuelve al laboratorio de Elm para bautizarlo y comenzar oficialmente tu desafío de los 8 gimnasios de Johto.</p>
